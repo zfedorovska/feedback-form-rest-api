@@ -6,6 +6,7 @@ const db = require('knex')({
     user: 'feedback_postgresql_ewjz_user',
     password: 'tX5tUaLfVppuPbzCwrd44fgE2ac7DAQx',
     database: 'feedback_postgresql_ewjz',
+    ssl: true,
   },
 });
 
